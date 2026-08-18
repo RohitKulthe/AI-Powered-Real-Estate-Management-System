@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h1 class="display-6 text-danger">Access Denied</h1>
+                    <p class="lead">You do not have permission to access this resource.</p>
+
+                    @if (ViewData["ReturnUrl"] != null)
+                    {
+                        <p>Attempted URL: <code>@ViewData["ReturnUrl"]</code></p>
+                    }
+
+                    <div class="mt-4">
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-primary me-2">Go to Home</a>
+
+                        @if (User.Identity?.IsAuthenticated == true)
+                        {
+                            <form asp-controller="Account" asp-action="Logout" method="get" style="display:inline-block">
+                                <button type="submit" class="btn btn-outline-secondary">Sign Out</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login" class="btn btn-outline-primary">Sign In</a>
+                        }
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

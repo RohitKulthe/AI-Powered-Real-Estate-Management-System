@@ -1,0 +1,73 @@
+﻿@model AIRealEstateManagementSystem.Models.Property
+
+<div class="card property-card h-100">
+
+    <div class="property-image-wrap">
+
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath"
+                 class="card-img-top"
+                 alt="@Model.PropertyName" />
+        }
+        else
+        {
+            <img src="~/images/no-image.png"
+                 class="card-img-top"
+                 alt="No Image Available" />
+        }
+
+        <span class="badge property-bhk-badge">
+            @Model.Bedrooms BHK
+        </span>
+
+        <div class="property-price-tag">
+            ₹ @Model.Price.ToString("N0")
+        </div>
+
+    </div>
+
+    <div class="card-body">
+
+        <h5 class="card-title">
+            @Model.PropertyName
+        </h5>
+
+        <p class="property-location">
+            <i class="fas fa-map-marker-alt"></i>
+            @Model.Location, @Model.City
+        </p>
+
+        <div class="property-meta">
+
+            <span>
+                <i class="fas fa-bed"></i>
+                @Model.Bedrooms Beds
+            </span>
+
+            <span>
+                <i class="fas fa-bath"></i>
+                @Model.Bathrooms Baths
+            </span>
+
+            <span>
+                <i class="fas fa-ruler-combined"></i>
+                @Model.Area Sq.ft
+            </span>
+
+        </div>
+
+        <a asp-controller="Property"
+           asp-action="Details"
+           asp-route-id="@Model.PropertyId"
+           class="btn btn-view-property w-100 mt-3">
+
+            <i class="fas fa-eye me-2"></i>
+
+            View Details
+
+        </a>
+
+    </div>
+
+</div>

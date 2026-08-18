@@ -1,0 +1,68 @@
+﻿@model AIRealEstateManagementSystem.Models.Inquiry
+
+@{
+    ViewData["Title"] = "Edit Inquiry";
+}
+
+<div class="container mt-4">
+
+    <h2 class="mb-4">Update Inquiry Status</h2>
+
+    <form asp-action="Edit" method="post">
+
+        @Html.AntiForgeryToken()
+
+        <input asp-for="InquiryId" type="hidden" />
+        <input asp-for="PropertyId" type="hidden" />
+        <input asp-for="Name" type="hidden" />
+        <input asp-for="Email" type="hidden" />
+        <input asp-for="Phone" type="hidden" />
+        <input asp-for="Message" type="hidden" />
+        <input asp-for="InquiryDate" type="hidden" />
+
+        <div class="mb-3">
+            <label class="form-label">Customer Name</label>
+            <input class="form-control" value="@Model.Name" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input class="form-control" value="@Model.Email" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Phone</label>
+            <input class="form-control" value="@Model.Phone" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4" readonly>@Model.Message</textarea>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Status" class="form-label"></label>
+
+            <select asp-for="Status" class="form-select">
+
+                <option value="Pending">Pending</option>
+
+                <option value="Contacted">Contacted</option>
+
+                <option value="Closed">Closed</option>
+
+            </select>
+
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Update Status
+        </button>
+
+        <a asp-action="Index" class="btn btn-secondary">
+            Cancel
+        </a>
+
+    </form>
+
+</div>

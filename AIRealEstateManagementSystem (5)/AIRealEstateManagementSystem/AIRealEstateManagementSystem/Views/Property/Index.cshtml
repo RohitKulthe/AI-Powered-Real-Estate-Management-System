@@ -1,0 +1,225 @@
+﻿@model IEnumerable<AIRealEstateManagementSystem.Models.Property>
+
+@{
+    ViewData["Title"] = "Property List";
+    Layout = "_AdminLayout";
+}
+
+<div class="container mt-4">
+
+    <h2 class="text-center mb-4">Property List</h2>
+
+    <!-- Search Filter -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5>Search Property</h5>
+        </div>
+
+        <div class="card-body">
+
+            <form method="get" asp-action="Index">
+
+                <div class="row">
+
+                    <div class="col-md-2">
+                        <label>City</label>
+                        <input type="text"
+                               name="city"
+                               class="form-control"
+                               placeholder="Enter City"
+                               value="@Context.Request.Query["city"]" />
+                    </div>
+
+                    <div class="col-md-2">
+                        <label>Property Type</label>
+                        <input type="text"
+                               name="propertyType"
+                               class="form-control"
+                               placeholder="Apartment"
+                               value="@Context.Request.Query["propertyType"]" />
+                    </div>
+
+                    <div class="col-md-2">
+                        <label>Min Price</label>
+                        <input type="number"
+                               name="minPrice"
+                               class="form-control"
+                               placeholder="500000"
+                               value="@Context.Request.Query["minPrice"]" />
+                    </div>
+
+                    <div class="col-md-2">
+                        <label>Max Price</label>
+                        <input type="number"
+                               name="maxPrice"
+                               class="form-control"
+                               placeholder="1000000"
+                               value="@Context.Request.Query["maxPrice"]" />
+                    </div>
+
+                    <div class="col-md-2">
+                        <label>Bedrooms</label>
+                        <input type="number"
+                               name="bedrooms"
+                               class="form-control"
+                               placeholder="2"
+                               value="@Context.Request.Query["bedrooms"]" />
+                    </div>
+
+                    <div class="col-md-2 d-flex align-items-end">
+
+                        <button type="submit"
+                                class="btn btn-success me-2">
+                            Search
+                        </button>
+
+                        <a asp-action="Index"
+                           class="btn btn-secondary">
+                            Reset
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">
+            Add New Property
+        </a>
+    </p>
+
+    <table class="table table-bordered table-hover">
+
+        <thead class="table-dark">
+
+            <tr>
+                <th>Image</th>
+                <th>Property Name</th>
+                <th>City</th>
+                <th>Location</th>
+                <th>Price</th>
+                <th>Bedrooms</th>
+                <th>Bathrooms</th>
+                <th>Area</th>
+                <th>Property Type</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            @if (Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+
+                            @if (!string.IsNullOrEmpty(item.ImagePath))
+                            {
+                                <img src="@item.ImagePath"
+                                     width="120"
+                                     height="80"
+                                     class="rounded border"
+                                     style="object-fit:cover;" />
+                            }
+                            else
+                            {
+                                <img src="~/images/no-image.png"
+                                     width="120"
+                                     height="80"
+                                     class="rounded border"
+                                     style="object-fit:cover;" />
+                            }
+
+                        </td>
+
+                        <td>@item.PropertyName</td>
+
+                        <td>@item.City</td>
+
+                        <td>@item.Location</td>
+
+                        <td>₹ @item.Price</td>
+
+                        <td>@item.Bedrooms</td>
+
+                        <td>@item.Bathrooms</td>
+
+                        <td>@item.Area Sq.ft</td>
+
+                        <td>@item.PropertyType</td>
+
+                        <!-- STATUS COLUMN -->
+                        <td>
+
+                            @if (item.Status == "Available")
+                            {
+                                <span class="badge bg-success">
+                                    Available
+                                </span>
+                            }
+                            else if (item.Status == "Sold")
+                            {
+                                <span class="badge bg-danger">
+                                    Sold
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-warning text-dark">
+                                    Rented
+                                </span>
+                            }
+
+                        </td>
+
+                        <!-- ACTION COLUMN -->
+                        <td>
+
+                            <a asp-action="Details"
+                               asp-route-id="@item.PropertyId"
+                               class="btn btn-info btn-sm">
+                                Details
+                            </a>
+
+                            <a asp-action="Edit"
+                               asp-route-id="@item.PropertyId"
+                               class="btn btn-warning btn-sm">
+                                Edit
+                            </a>
+
+                            <a asp-action="Delete"
+                               asp-route-id="@item.PropertyId"
+                               class="btn btn-danger btn-sm">
+                                Delete
+                            </a>
+
+                        </td>
+
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="11" class="text-center text-danger">
+                        No Property Found
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>

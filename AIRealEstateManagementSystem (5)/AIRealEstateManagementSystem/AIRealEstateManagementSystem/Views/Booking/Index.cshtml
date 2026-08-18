@@ -1,0 +1,53 @@
+﻿@model IEnumerable<AIRealEstateManagementSystem.Models.Booking>
+
+@{
+    ViewData["Title"] = "My Bookings";
+}
+
+<h2>My Bookings</h2>
+
+<table class="table table-bordered table-striped">
+
+    <thead class="table-dark">
+        <tr>
+            <th>Booking Id</th>
+            <th>Property Id</th>
+            <th>Customer Id</th>
+            <th>Visit Date</th>
+            <th>Visit Time</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BookingId</td>
+                <td>@item.PropertyId</td>
+                <td>@item.CustomerId</td>
+                <td>@item.VisitDate.ToShortDateString()</td>
+                <td>@item.VisitTime</td>
+                <td>
+                    @if (item.Status == "Pending")
+                    {
+                        <span class="badge bg-warning text-dark">Pending</span>
+                    }
+                    else if (item.Status == "Approved")
+                    {
+                        <span class="badge bg-success">Approved</span>
+                    }
+                    else if (item.Status == "Rejected")
+                    {
+                        <span class="badge bg-danger">Rejected</span>
+                    }
+                    else
+                    {
+                        @item.Status
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

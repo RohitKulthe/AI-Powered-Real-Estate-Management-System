@@ -1,0 +1,143 @@
+﻿using AIRealEstateManagementSystem.Dal;
+using AIRealEstateManagementSystem.Models;
+using AIRealEstateManagementSystem.ViewModels;
+using Microsoft.AspNetCore.Identity;
+
+namespace AIRealEstateManagementSystem.Services.Authentication
+{
+    public class AuthService
+    {
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly ApplicationDbContext _context;
+        private readonly EmailService _emailService;
+        private readonly OtpService _otpService;
+
+        public AuthService(
+     UserManager<ApplicationUser> userManager,
+     SignInManager<ApplicationUser> signInManager,
+     RoleManager<IdentityRole> roleManager,
+     ApplicationDbContext context,
+     EmailService emailService,
+     OtpService otpService)
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _roleManager = roleManager;
+            _context = context;
+            _emailService = emailService;
+            _otpService = otpService;
+        }
+
+        public async Task<IdentityResult> RegisterAsync(RegisterViewModel model)
+        {
+            var user = new ApplicationUser
+            {
+                FullName = model.FullName,
+                UserName = model.Email,
+                Email = model.Email,
+                PhoneNumber = model.MobileNo,
+                EmailConfirmed = false
+            };
+
+            var result = await _userManager.CreateAsync(user, model.Password);
+
+            if (!result.Succeeded)
+                return result;
+
+            // Create Customer role if it doesn't exist
+            if (!await _roleManager.RoleExistsAsync("Customer"))
+            {
+                await _roleManager.CreateAsync(new IdentityRole("Customer"));
+            }
+
+            // Assign Customer role to newly registered user
+            await _userManager.AddToRoleAsync(user, "Customer");
+
+            string otp = _otpService.GenerateOtp();
+
+            var emailOtp = new EmailOtp
+            {
+                Email = model.Email,
+                OTP = otp,
+                ExpiryTime = DateTime.Now.AddMinutes(10),
+                IsVerified = false
+            };
+
+            _context.EmailOtps.Add(emailOtp);
+
+            await _context.SaveChangesAsync();
+
+            await _emailService.SendEmailAsync(
+                model.Email,
+                "Email Verification OTP",
+                $"<h2>Your OTP is: {otp}</h2><p>It is valid for 10 minutes.</p>");
+
+            return result;
+        }
+
+        public async Task<bool> VerifyOtpAsync(string email, string otp)
+        {
+            var emailOtp = _context.EmailOtps
+                .OrderByDescending(x => x.CreatedAt)
+                .FirstOrDefault(x =>
+                    x.Email == email &&
+                    x.OTP == otp &&
+                    !x.IsVerified);
+
+            if (emailOtp == null)
+                return false;
+
+            if (emailOtp.ExpiryTime < DateTime.Now)
+                return false;
+
+            emailOtp.IsVerified = true;
+
+            var user = await _userManager.FindByEmailAsync(email);
+
+            if (user != null)
+            {
+                user.EmailConfirmed = true;
+                await _userManager.UpdateAsync(user);
+            }
+
+            await _context.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<ApplicationUser?> LoginAsync(LoginViewModel model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            if (user == null)
+                return null;
+
+            if (!user.EmailConfirmed)
+                return null;
+
+            var result = await _signInManager.PasswordSignInAsync(
+                user,
+                model.Password,
+                model.RememberMe,
+                lockoutOnFailure: false);
+
+            if (!result.Succeeded)
+                return null;
+
+            return user;
+        }
+
+        public async Task<bool> IsAdminAsync(ApplicationUser user)
+        {
+            return await _userManager.IsInRoleAsync(user, "Admin");
+        }
+
+        public async Task LogoutAsync()
+        {
+            await _signInManager.SignOutAsync();
+        }
+
+    }
+}

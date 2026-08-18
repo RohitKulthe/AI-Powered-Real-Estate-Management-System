@@ -1,0 +1,278 @@
+﻿@model AIRealEstateManagementSystem.Models.Property
+
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Property Details";
+    Layout = "_Layout";
+
+    var customerId = Context.Session.GetInt32("CustomerId");
+}
+
+<div class="container mt-4">
+
+    <h2 class="text-center mb-4">Property Details</h2>
+
+    <div class="text-center mb-4">
+
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath"
+                 class="img-thumbnail rounded shadow"
+                 style="width:400px;height:300px;object-fit:cover;" />
+        }
+        else
+        {
+            <img src="~/images/no-image.png"
+                 class="img-thumbnail rounded shadow"
+                 style="width:400px;height:300px;object-fit:cover;" />
+        }
+
+    </div>
+
+    <table class="table table-bordered table-striped">
+
+        <tr>
+            <th width="25%">Property Name</th>
+            <td>@Model.PropertyName</td>
+        </tr>
+
+        <tr>
+            <th>City</th>
+            <td>@Model.City</td>
+        </tr>
+
+        <tr>
+            <th>Location</th>
+            <td>@Model.Location</td>
+        </tr>
+
+        <tr>
+            <th>Price</th>
+            <td>₹ @Model.Price.ToString("N0")</td>
+        </tr>
+
+        <tr>
+            <th>Bedrooms</th>
+            <td>@Model.Bedrooms</td>
+        </tr>
+
+        <tr>
+            <th>Bathrooms</th>
+            <td>@Model.Bathrooms</td>
+        </tr>
+
+        <tr>
+            <th>Area</th>
+            <td>@Model.Area Sq.ft</td>
+        </tr>
+
+        <tr>
+            <th>Property Type</th>
+            <td>@Model.PropertyType</td>
+        </tr>
+
+        <tr>
+            <th>Description</th>
+            <td>@Model.Description</td>
+        </tr>
+
+        @if (User.IsInRole("Admin"))
+        {
+            <tr>
+                <th>Image Path</th>
+                <td>@Model.ImagePath</td>
+            </tr>
+        }
+
+    </table>
+
+    <!-- ======================= -->
+    <!-- ADMIN BUTTONS -->
+    <!-- ======================= -->
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="mb-4">
+
+            <a asp-action="Edit"
+               asp-route-id="@Model.PropertyId"
+               class="btn btn-warning">
+                ✏ Edit
+            </a>
+
+            <a asp-action="Index"
+               class="btn btn-secondary">
+                ← Back
+            </a>
+
+            <a asp-controller="PropertyImage"
+               asp-action="Create"
+               asp-route-propertyId="@Model.PropertyId"
+               class="btn btn-primary">
+                📷 Add More Images
+            </a>
+
+        </div>
+    }
+
+    <!-- ======================= -->
+    <!-- STATUS -->
+    <!-- ======================= -->
+
+    <p class="mt-3">
+
+        <strong>Status :</strong>
+
+        @if (Model.Status == "Available")
+        {
+            <span class="badge bg-success fs-6">Available</span>
+        }
+        else if (Model.Status == "Sold")
+        {
+            <span class="badge bg-danger fs-6">Sold</span>
+        }
+        else
+        {
+            <span class="badge bg-warning text-dark fs-6">Rented</span>
+        }
+
+    </p>
+
+    <!-- ======================= -->
+    <!-- CUSTOMER ACTIONS -->
+    <!-- ======================= -->
+    @if (!User.IsInRole("Admin"))
+    {
+        <div class="card shadow border-0 mt-4 mb-4">
+
+            <div class="card-body">
+
+                <h3 class="text-center mb-4">
+                    Interested in this Property?
+                </h3>
+
+                <div class="row g-3">
+
+                    <!-- Book Visit -->
+                    <div class="col-md-6">
+
+                        @if (customerId == null)
+                        {
+                            <a asp-controller="Customer"
+                               asp-action="Login"
+                               class="btn btn-primary w-100 py-3">
+                                📅 Book Visit
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Booking"
+                               asp-action="Create"
+                               asp-route-propertyId="@Model.PropertyId"
+                               class="btn btn-primary w-100 py-3">
+                                📅 Book Visit
+                            </a>
+                        }
+
+                    </div>
+
+                    <!-- Favourite -->
+                    <div class="col-md-6">
+
+                        @if (customerId == null)
+                        {
+                            <a asp-controller="Customer"
+                               asp-action="Login"
+                               class="btn btn-danger w-100 py-3">
+                                ❤ Add to Favourite
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Favorite"
+                               asp-action="Add"
+                               asp-route-propertyId="@Model.PropertyId"
+                               class="btn btn-danger w-100 py-3">
+                                ❤ Add to Favourite
+                            </a>
+                        }
+
+                    </div>
+
+                    <!-- Review -->
+                    <div class="col-md-6">
+
+                        @if (customerId == null)
+                        {
+                            <a asp-controller="Customer"
+                               asp-action="Login"
+                               class="btn btn-warning text-dark w-100 py-3">
+                                ⭐ Write Review
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Review"
+                               asp-action="Create"
+                               asp-route-propertyId="@Model.PropertyId"
+                               class="btn btn-warning text-dark w-100 py-3">
+                                ⭐ Write Review
+                            </a>
+                        }
+
+                    </div>
+
+                    <!-- Contact Owner -->
+                    <div class="col-md-6">
+
+                        @if (customerId == null)
+                        {
+                            <a asp-controller="Customer"
+                               asp-action="Login"
+                               class="btn btn-success w-100 py-3">
+                                📞 Contact Owner
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Inquiry"
+                               asp-action="Create"
+                               asp-route-propertyId="@Model.PropertyId"
+                               class="btn btn-success w-100 py-3">
+                                📞 Contact Owner
+                            </a>
+                        }
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    }
+
+    <!-- ======================= -->
+    <!-- GOOGLE MAP -->
+    <!-- ======================= -->
+
+    <h4 class="mt-4">📍 Property Location</h4>
+
+    <div class="ratio ratio-16x9 shadow">
+
+        <iframe src="https://maps.google.com/maps?q=@Model.Latitude,@Model.Longitude&z=15&output=embed"
+                style="border:0;"
+                loading="lazy">
+        </iframe>
+
+    </div>
+
+    <br />
+
+    <a href="https://www.google.com/maps?q=@Model.Latitude,@Model.Longitude"
+       target="_blank"
+       class="btn btn-primary">
+        Open in Google Maps
+    </a>
+
+</div>

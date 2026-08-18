@@ -1,0 +1,84 @@
+﻿@model AIRealEstateManagementSystem.Models.Inquiry
+
+@{
+    ViewData["Title"] = "Contact Property Owner";
+}
+
+<div class="container mt-4">
+
+    <h2 class="text-center mb-4">Contact Property Owner</h2>
+
+    <form asp-action="Create" method="post">
+
+        @Html.AntiForgeryToken()
+
+        <input asp-for="PropertyId" type="hidden" />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <!-- Property Name -->
+        <div class="mb-3">
+            <label class="form-label">Property</label>
+            <input class="form-control"
+                   value="@Model.Property?.PropertyName"
+                   readonly />
+        </div>
+
+        <!-- Customer Name -->
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name"
+                   class="form-control"
+                   readonly />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <!-- Customer Email -->
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email"
+                   class="form-control"
+                   readonly />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <!-- Customer Phone -->
+        <div class="mb-3">
+            <label asp-for="Phone" class="form-label"></label>
+            <input asp-for="Phone"
+                   class="form-control"
+                   readonly />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+
+        <!-- Message -->
+        <div class="mb-3">
+            <label asp-for="Message" class="form-label"></label>
+            <textarea asp-for="Message"
+                      rows="5"
+                      class="form-control"
+                      placeholder="Write your message here..."></textarea>
+            <span asp-validation-for="Message" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Send Inquiry
+        </button>
+
+        <a asp-controller="Property"
+           asp-action="Details"
+           asp-route-id="@Model.PropertyId"
+           class="btn btn-secondary">
+            Cancel
+        </a>
+
+    </form>
+
+</div>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

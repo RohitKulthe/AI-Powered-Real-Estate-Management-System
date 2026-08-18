@@ -1,0 +1,18 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;port=3306;database=AIRealEstateDB;user=root;password=welcome;"
+  },
+  "EmailSettings": {
+    "FromEmail": "group059cdac@gmail.com",
+    "AppPassword": "yqwgcewlcjhmkell",
+    "Host": "smtp.gmail.com",
+    "Port": 587
+  }
+}

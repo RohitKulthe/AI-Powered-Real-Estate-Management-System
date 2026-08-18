@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AIRealEstateManagementSystem.Models.Property>
+
+<section class="properties-section" id="properties">
+
+    <div class="container-fluid">
+
+        <div class="section-header">
+
+            <div>
+
+                <span class="section-tag">
+                    Live Inventory
+                </span>
+
+                <h2>
+                    Featured Properties
+
+                    <span class="live-badge ms-2">
+                        LIVE
+                    </span>
+
+                </h2>
+
+                <p>
+                    Curated listings updated from our management system.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row g-4">
+
+            @foreach (var property in Model)
+            {
+                <div class="col-md-6 col-lg-4">
+
+                    <partial name="_PropertyCard"
+                             model="property" />
+
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+</section>

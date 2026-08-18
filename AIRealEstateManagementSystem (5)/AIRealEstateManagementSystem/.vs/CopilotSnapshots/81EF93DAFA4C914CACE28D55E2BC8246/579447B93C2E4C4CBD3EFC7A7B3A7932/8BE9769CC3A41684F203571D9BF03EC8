@@ -1,0 +1,7 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="RealEstate">Real Estate</a>
+</li>

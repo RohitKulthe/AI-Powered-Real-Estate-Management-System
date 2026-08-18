@@ -1,0 +1,193 @@
+﻿@model IEnumerable<AIRealEstateManagementSystem.Models.Property>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+<section class="hero" id="home">
+    <div class="hero-grid-overlay"></div>
+
+    <div class="container-fluid">
+
+        <div class="row align-items-center g-5">
+
+            <!-- ============================================
+            LEFT SIDE — Hero Content
+            ============================================ -->
+            <div class="col-lg-7">
+
+                <div class="hero-content">
+
+                    <!-- Badge -->
+                    <span class="hero-badge">
+                        <i class="fas fa-building me-2"></i>
+                        Real Estate Management System
+                    </span>
+
+                    <!-- Heading -->
+                    <h1>
+                        Discover Your
+                        <span>Dream Property</span>
+                        Across INDIA
+                    </h1>
+
+                    <!-- Description -->
+                    <p>
+                        Smart search, expert recommendations, and real-time inventory —
+                        everything you need to find, compare, and manage premium real estate.
+                    </p>
+
+                    <!-- Stats -->
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>500+</strong>
+                            <span>Verified Listings</span>
+                        </div>
+
+                        <div>
+                            <strong>98%</strong>
+                            <span>Match Accuracy</span>
+                        </div>
+
+                        <div>
+                            <strong>24/7</strong>
+                            <span>Support Available</span>
+                        </div>
+
+                    </div>
+
+                    <!-- ==========================================
+                    SEARCH BOX
+                    ========================================== -->
+                    <div class="search-box">
+
+                        <div class="search-box-header">
+                            <h5>
+                                <i class="fas fa-search me-2"></i>
+                                Property Search
+                            </h5>
+                        </div>
+
+                        <form asp-controller="Property"
+                              asp-action="Search"
+                              method="get">
+
+                            <div class="row g-3">
+
+                                <!-- Location -->
+                                <div class="col-md-4">
+                                    <label class="search-label">Location</label>
+                                    <input type="text"
+                                           class="form-control search-input"
+                                           name="location"
+                                           placeholder="e.g. Baner, Kothrud" />
+                                </div>
+
+                                <!-- Property Type -->
+                                <div class="col-md-3">
+                                    <label class="search-label">Property Type</label>
+                                    <select class="form-select search-input"
+                                            name="type">
+                                        <option>All Types</option>
+                                        <option>1BHK</option>
+                                        <option>2BHK</option>
+                                        <option>3BHK</option>
+                                        <option>4BHK</option>
+                                        <option>5BHK</option>
+                                    </select>
+                                </div>
+
+                                <!-- Price Range -->
+                                <div class="col-md-3">
+                                    <label class="search-label">Price Range</label>
+                                    <select class="form-select search-input"
+                                            name="priceRange">
+                                        <option>Any Price</option>
+                                        <option>Under ₹50 L</option>
+                                        <option>₹50L – ₹1Cr</option>
+                                        <option>₹1Cr – ₹2Cr</option>
+                                        <option>Above ₹2Cr</option>
+                                    </select>
+                                </div>
+
+                                <!-- Search Button -->
+                                <div class="col-md-2 d-flex align-items-end">
+                                    <button type="submit"
+                                            class="btn btn-accent w-100 search-btn">
+                                        <i class="fas fa-search me-1"></i>
+                                        Search
+                                    </button>
+                                </div>
+
+                            </div><!-- /.row -->
+
+                        </form>
+
+                    </div><!-- /.search-box -->
+
+                </div><!-- /.hero-content -->
+
+            </div><!-- /.col-lg-7 -->
+            <!-- ============================================
+            RIGHT SIDE — Hero Visual
+            ============================================ -->
+            <div class="col-lg-5 d-none d-lg-block">
+
+                <div class="hero-visual">
+
+                    <!-- Main Property Card -->
+                    <div class="hero-card hero-card-main">
+
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop"
+                             class="img-fluid"
+                             alt="Premium 4BHK in Baner" />
+
+                        <div class="hero-card-info">
+
+                            <span class="hero-card-tag">Top Pick</span>
+
+                            <h6>Premium 4BHK in Baner</h6>
+
+                            <p>₹1.8 Cr • 2100 sqft</p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Optional secondary card (placeholder for future use) -->
+                    <div class="hero-card-secondary d-none">
+                        <!-- reserved for extra content -->
+                    </div>
+
+                </div><!-- /.hero-visual -->
+
+            </div><!-- /.col-lg-5 -->
+
+        </div><!-- /.row -->
+
+    </div><!-- /.container-fluid -->
+
+</section>
+
+
+<!-- ============================================================
+     PROPERTY LIST PARTIAL
+     ============================================================ -->
+<partial name="_PropertyList" model="Model" />
+
+<!-- Real Estate embedded promo -->
+<section id="real-estate" class="py-5">
+    <div class="container">
+        <div id="react-root"></div>
+    </div>
+
+    <style>
+        /* Minimal local styles for the promo (detailed styles are added in Scripts section) */
+        .real-estate-page { background: #f8faff; }
+    </style>
+
+</section>

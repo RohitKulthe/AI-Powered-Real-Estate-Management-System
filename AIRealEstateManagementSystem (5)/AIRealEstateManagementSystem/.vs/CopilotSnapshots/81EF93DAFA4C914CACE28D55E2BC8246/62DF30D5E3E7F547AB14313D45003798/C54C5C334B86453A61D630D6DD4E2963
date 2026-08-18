@@ -1,0 +1,268 @@
+﻿@{
+    ViewData["Title"] = "AI Real Estate Management";
+}
+
+<div id="react-root"></div>
+
+@section Scripts {
+    <!-- Load React and ReactDOM from CDN -->
+    <script src="https://unpkg.com/react@@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel standalone to transpile JSX in the browser -->
+    <script src="https://unpkg.com/@@babel/standalone/babel.min.js"></script>
+
+    <!-- Our React component (JSX) -->
+    <script type="text/babel">
+        const RealEstatePage = () => {
+        const features = [
+        { icon: "🔑", title: "AI-driven property matching", description: "Our intelligent algorithms analyze your preferences to find the perfect property match." },
+        { icon: "🔑", title: "Predictive market analytics", description: "Stay ahead with data-driven insights on market trends and property valuations." },
+        { icon: "🔑", title: "Secure & transparent transactions", description: "Blockchain-backed security ensures every transaction is safe, transparent, and tamper-proof." },
+        { icon: "🔑", title: "24/7 intelligent chatbot assistant", description: "Get instant answers and personalized support anytime with our AI-powered chatbot." }
+        ];
+
+        return (
+        <div className="real-estate-page">
+        <div className="bg-blob bg-blob-1"></div>
+        <div className="bg-blob bg-blob-2"></div>
+        <div className="container">
+        <div className="header-section">
+        <span className="badge">✨ AI-Powered Real Estate</span>
+        <h1 className="main-title">
+        Real Estate <br />
+        <span className="highlight">Management System</span>
+        </h1>
+        <p className="subtitle">
+        SRK Estates leverages cutting-edge artificial intelligence to transform how you buy, sell, and manage properties in Pune. From predictive analytics to personalized recommendations, we make real estate smarter.
+        </p>
+        </div>
+        <div className="features-grid">
+        {features.map((feature, index) => (
+        <div className="feature-card" key={index} style={{ animationDelay: `${index * 0.1}s` }}>
+        <div className="feature-icon">{feature.icon}</div>
+        <h3 className="feature-title">{feature.title}</h3>
+        <p className="feature-description">{feature.description}</p>
+        <div className="feature-arrow">→</div>
+        </div>
+        ))}
+        </div>
+        <div className="cta-section">
+        <button className="cta-button">
+        Get Started with AI
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 12h14" />
+        <path d="M12 5l7 7-7 7" />
+        </svg>
+        </button>
+        <p className="cta-subtext">Join 500+ happy homeowners in Pune</p>
+        </div>
+        </div>
+        </div>
+        );
+        };
+
+        // Render the component into the root div
+        const root = ReactDOM.createRoot(document.getElementById('react-root'));
+        root.render(<RealEstatePage />);
+    </script>
+
+    <!-- Inline CSS for the component -->
+    <style>
+        /* ── Reset & Base ── */
+        .real-estate-page {
+        position: relative;
+        min-height: 100vh;
+        padding: 60px 20px 80px;
+        background: #f8faff;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        }
+        .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        }
+        .bg-blob {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(80px);
+        opacity: 0.25;
+        z-index: 0;
+        pointer-events: none;
+        }
+        .bg-blob-1 {
+        width: 500px;
+        height: 500px;
+        top: -200px;
+        right: -150px;
+        background: #6366f1;
+        }
+        .bg-blob-2 {
+        width: 400px;
+        height: 400px;
+        bottom: -150px;
+        left: -150px;
+        background: #8b5cf6;
+        }
+        .header-section {
+        text-align: center;
+        margin-bottom: 60px;
+        }
+        .badge {
+        display: inline-block;
+        background: rgba(99, 102, 241, 0.12);
+        color: #4f46e5;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding: 6px 18px;
+        border-radius: 50px;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+        }
+        .main-title {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 1.15;
+        color: #0b1120;
+        margin: 0 0 16px;
+        letter-spacing: -0.03em;
+        }
+        .main-title .highlight {
+        background: linear-gradient(135deg, #4f46e5, #7c3aed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        }
+        .subtitle {
+        max-width: 720px;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: #475569;
+        font-weight: 400;
+        }
+        .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 24px;
+        margin-bottom: 56px;
+        }
+        .feature-card {
+        background: rgba(255,255,255,0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255,255,255,0.8);
+        border-radius: 20px;
+        padding: 28px 24px 24px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.04);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        animation: fadeUp 0.6s ease forwards;
+        opacity: 0;
+        }
+        .feature-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 16px 48px rgba(79,70,229,0.10);
+        border-color: rgba(99,102,241,0.25);
+        }
+        .feature-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 20px;
+        padding: 1px;
+        background: linear-gradient(135deg, rgba(99,102,241,0.15), transparent);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+        }
+        .feature-icon {
+        font-size: 2rem;
+        margin-bottom: 14px;
+        display: block;
+        }
+        .feature-title {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: #0b1120;
+        margin: 0 0 10px;
+        letter-spacing: -0.01em;
+        }
+        .feature-description {
+        font-size: 0.92rem;
+        line-height: 1.6;
+        color: #64748b;
+        margin: 0 0 16px;
+        }
+        .feature-arrow {
+        font-size: 1.2rem;
+        color: #4f46e5;
+        opacity: 0.5;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .feature-card:hover .feature-arrow {
+        opacity: 1;
+        transform: translateX(4px);
+        }
+        .cta-section {
+        text-align: center;
+        margin-top: 8px;
+        }
+        .cta-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: linear-gradient(135deg, #4f46e5, #7c3aed);
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 14px 36px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        box-shadow: 0 8px 28px rgba(79,70,229,0.30);
+        }
+        .cta-button:hover {
+        transform: scale(1.03);
+        box-shadow: 0 12px 40px rgba(79,70,229,0.40);
+        }
+        .cta-button svg {
+        transition: transform 0.25s ease;
+        }
+        .cta-button:hover svg {
+        transform: translateX(4px);
+        }
+        .cta-subtext {
+        margin-top: 14px;
+        font-size: 0.9rem;
+        color: #94a3b8;
+        font-weight: 400;
+        }
+        @@keyframes fadeUp {
+        0% { opacity: 0; transform: translateY(24px); }
+        100% { opacity: 1; transform: translateY(0); }
+        }
+        @@media (max-width: 768px) {
+        .real-estate-page { padding: 40px 16px 60px; }
+        .main-title { font-size: 2.2rem; }
+        .subtitle { font-size: 1rem; }
+        .features-grid { grid-template-columns: 1fr; gap: 16px; }
+        .feature-card { padding: 22px 20px 20px; }
+        .cta-button { padding: 12px 28px; font-size: 0.95rem; width: 100%; justify-content: center; }
+        .bg-blob-1 { width: 300px; height: 300px; top: -100px; right: -100px; }
+        .bg-blob-2 { width: 250px; height: 250px; bottom: -100px; left: -100px; }
+        }
+        @media (max-width: 480px) {
+        .main-title { font-size: 1.8rem; }
+        .badge { font-size: 0.7rem; padding: 4px 14px; }
+        .feature-title { font-size: 0.95rem; }
+        }
+    </style>

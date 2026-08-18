@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AIRealEstateManagementSystem.Models.Favorite>
+
+@{
+    ViewData["Title"] = "My Favorite Properties";
+}
+
+<h2>My Favorite Properties</h2>
+
+<table class="table table-bordered table-striped">
+
+    <thead class="table-dark">
+        <tr>
+            <th>Favorite Id</th>
+            <th>Property Id</th>
+            <th>Customer Id</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FavoriteId</td>
+                <td>@item.PropertyId</td>
+                <td>@item.CustomerId</td>
+                <td>
+                    <form asp-action="Delete"
+                          asp-route-id="@item.FavoriteId"
+                          method="post"
+                          class="d-inline">
+
+                        @Html.AntiForgeryToken()
+
+                        <button type="submit"
+                                class="btn btn-danger"
+                                onclick="return confirm('Are you sure you want to remove this favorite?');">
+                            Remove
+                        </button>
+
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

@@ -1,0 +1,142 @@
+wwwroot\css\chatbot.css
+wwwroot\css\navbar.css
+wwwroot\css\site-custom.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\089d61f6-850f-46c3-a8b9-444180e9d654.avif
+wwwroot\images\1cccc21c-eb03-4f46-8551-42e811e95a83.webp
+wwwroot\images\26355b31-e3f8-4222-af1e-e249afe15ae5.avif
+wwwroot\images\2b1e65f4-ca99-4a19-b4c2-c620005d9f5a.jpg
+wwwroot\images\3d264a78-91d2-4f22-8f94-68fae90e6916.jpg
+wwwroot\images\6895db17-226f-4692-992b-b23098f2d94f.png
+wwwroot\images\cf380142-bd2a-4599-8bd0-7e7a5c7dde54.avif
+wwwroot\images\hero.jpg.png
+wwwroot\images\Property2.avif
+wwwroot\js\chatbot.js
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\css\site-custom.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\css\navbar.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\css\chatbot.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery\LICENSE.txt
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery\dist\jquery.min.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery\dist\jquery.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery\dist\jquery.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation\LICENSE.md
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\js\site.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\js\chatbot.js
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\favicon.ico
+D:\dotnet_Estate\AIRealEstateManagementSystem (5)\AIRealEstateManagementSystem\AIRealEstateManagementSystem\wwwroot\css\site.css

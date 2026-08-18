@@ -1,0 +1,1592 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\wwwroot\\css\\site-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\wwwroot\\css\\site-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\home\\realestate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\home\\realestate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\property\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\property\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\property\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\property\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\adminpropertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\adminpropertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\migrations\\20260801100241_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\migrations\\20260801100241_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801100137_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AIRealEstateManagementSystem\\Migrations\\20260801100137_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\adminproperty\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\adminproperty\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\adminproperty\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\adminproperty\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\adminproperty\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\adminproperty\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\adminproperty\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\adminproperty\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801093813_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AIRealEstateManagementSystem\\Migrations\\20260801093813_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\airealestatemanagementsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\airealestatemanagementsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\inquiry\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\inquiry\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\inquirycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\inquirycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\inquiry\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\inquiry\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\inquiry\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\inquiry\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\inquiry\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\inquiry\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\inquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\inquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\favorite\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\favorite\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\wwwroot\\js\\chatbot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\wwwroot\\js\\chatbot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_propertylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_propertylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_propertycard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_propertycard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\propertyimage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\propertyimage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\wwwroot\\css\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\wwwroot\\css\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\account\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\account\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\viewmodels\\verifyotpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\viewmodels\\verifyotpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\monthlybookingcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\monthlybookingcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\citypropertycount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\citypropertycount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\models\\setting\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\models\\setting\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|d:\\dotnet_estate\\airealestatemanagementsystem (5)\\airealestatemanagementsystem\\airealestatemanagementsystem\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5BB3E1D-304A-BEF7-A11F-21D7CDC22CDA}|AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj|solutionrelative:airealestatemanagementsystem\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site-custom.css",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\site-custom.css",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\wwwroot\\css\\site-custom.css",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\site-custom.css",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\wwwroot\\css\\site-custom.css",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIAGAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-23T13:24:32.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatResponse.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ChatResponse.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\ChatResponse.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ChatResponse.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\ChatResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T12:22:24.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Dal\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Dal\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Dal\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Dal\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:48:38.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T10:37:15.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\PropertyController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAiwKoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:09:42.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Property\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Property\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAANYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-01T12:11:57.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAIUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:11:25.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RealEstate.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Home\\RealEstate.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Home\\RealEstate.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Home\\RealEstate.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Home\\RealEstate.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T10:15:00.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T06:09:38.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T10:34:54.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Create.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Property\\Create.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Create.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Property\\Create.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-01T12:12:42.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "chatbot.css",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\chatbot.css",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\wwwroot\\css\\chatbot.css",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\chatbot.css",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\wwwroot\\css\\chatbot.css",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-22T12:28:26.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-23T13:33:09.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Property\\Delete.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Delete.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Property\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-01T12:15:03.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Property\\Edit.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Edit.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Property\\Edit.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-01T12:14:07.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Services\\AuthService.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Services\\AuthService.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T09:43:15.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Details.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Property\\Details.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Property\\Details.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Property\\Details.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBUBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-01T12:15:45.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DebugController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\DebugController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\DebugController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\DebugController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\DebugController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T17:50:46.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:10:19.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\appsettings.json",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\appsettings.json",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T11:57:05.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Program.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Program.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Program.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:58:13.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminPropertyController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AdminPropertyController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\AdminPropertyController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AdminPropertyController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\AdminPropertyController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA2wBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:18:19.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\AdminDashboardController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\AdminDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:13:47.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:17:15.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:06:28.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260801100241_InitialCreate.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801100241_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Migrations\\20260801100241_InitialCreate.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801100241_InitialCreate.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Migrations\\20260801100241_InitialCreate.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:02:41.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20260801100137_InitialCreate.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801100137_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Migrations\\20260801100137_InitialCreate.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801100137_InitialCreate.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Migrations\\20260801100137_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:01:38.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T12:22:53.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\AdminDashboard\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\AdminDashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:14:33.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:08:03.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Create.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Create.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Create.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:20:34.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Delete.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Delete.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:21:33.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Edit.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Edit.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:21:14.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\AdminProperty\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\AdminProperty\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:20:12.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIBQwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T17:29:17.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T17:29:44.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260801093813_InitialCreate.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801093813_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Migrations\\20260801093813_InitialCreate.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Migrations\\20260801093813_InitialCreate.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Migrations\\20260801093813_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:38:13.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:24:59.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AIRealEstateManagementSystem",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\AIRealEstateManagementSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-01T09:32:38.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T17:25:36.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T06:24:31.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T20:24:46.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Inquiry\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Inquiry\\Index.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwF0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:04:48.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InquiryController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\InquiryController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\InquiryController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\InquiryController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\InquiryController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAIwIMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:03:15.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\User.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\User.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\User.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowB0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:12:17.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Inquiry\\Delete.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Delete.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Inquiry\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T10:43:21.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Property.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Property.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Property.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Property.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwCwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:46:09.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Create.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Inquiry\\Create.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Create.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Inquiry\\Create.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:04:11.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Inquiry\\Edit.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Inquiry\\Edit.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Inquiry\\Edit.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T10:42:44.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAUwGQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T11:15:54.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:58:22.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Review.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Review.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Review.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T10:51:34.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Inquiry.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Inquiry.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Inquiry.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Inquiry.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Inquiry.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T07:59:54.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Review\\Create.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Review\\Create.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Review\\Create.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Review\\Create.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T10:55:47.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Review\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Review\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Review\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Review\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T10:56:34.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAUwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T10:53:34.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FavoriteController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\FavoriteController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\FavoriteController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\FavoriteController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\FavoriteController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T10:45:31.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Favorite.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Favorite.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T10:43:29.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Favorite\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Favorite\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Favorite\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Favorite\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T10:50:09.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Booking.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Booking.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Booking.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T17:53:55.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Booking\\Create.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Booking\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T10:41:10.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T10:41:54.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Customer.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Customer.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Customer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T08:54:02.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Customer\\Login.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Customer\\Login.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Customer\\Login.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Customer\\Login.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-27T05:45:06.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_AuthLayout.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_AuthLayout.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwEMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-27T05:53:57.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Customer\\Register.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Customer\\Register.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Customer\\Register.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Customer\\Register.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-27T05:44:06.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-01T14:18:07.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-01T14:18:43.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwCIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T12:56:25.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "_ChatBot.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_ChatBot.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_ChatBot.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_ChatBot.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_ChatBot.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T12:23:44.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "chatbot.js",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\js\\chatbot.js",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\wwwroot\\js\\chatbot.js",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\js\\chatbot.js",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\wwwroot\\js\\chatbot.js",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-22T12:27:45.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAUwIwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:43:15.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "_PropertyList.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_PropertyList.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_PropertyList.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_PropertyList.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_PropertyList.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:13:41.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "_PropertyCard.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_PropertyCard.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_PropertyCard.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_PropertyCard.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_PropertyCard.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwEgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T14:15:18.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\PropertyImage\\Create.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\PropertyImage\\Create.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\PropertyImage\\Create.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\PropertyImage\\Create.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:31:46.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "PropertyImageController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\PropertyImageController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\PropertyImageController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\PropertyImageController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\PropertyImageController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:30:19.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T10:59:35.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-24T05:40:45.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "navbar.css",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\navbar.css",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\wwwroot\\css\\navbar.css",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\wwwroot\\css\\navbar.css",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\wwwroot\\css\\navbar.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-23T13:10:24.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T06:22:58.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-24T06:27:39.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T06:23:59.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\appsettings.Development.json",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\appsettings.Development.json",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-24T06:26:32.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAUwBIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T11:00:43.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "VerifyOtp.cshtml",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\VerifyOtp.cshtml",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Views\\Account\\VerifyOtp.cshtml",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Views\\Account\\VerifyOtp.cshtml",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Views\\Account\\VerifyOtp.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T09:56:30.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "VerifyOtpViewModel.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\ViewModels\\VerifyOtpViewModel.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\ViewModels\\VerifyOtpViewModel.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\ViewModels\\VerifyOtpViewModel.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\ViewModels\\VerifyOtpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T17:30:15.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Services\\OtpService.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Services\\OtpService.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Services\\OtpService.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Services\\OtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T09:39:10.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Services\\EmailService.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Services\\EmailService.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Services\\EmailService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T17:16:48.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "PropertyImage.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\PropertyImage.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\PropertyImage.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\PropertyImage.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\PropertyImage.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:26:08.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "MonthlyBookingCount.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\MonthlyBookingCount.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\MonthlyBookingCount.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\MonthlyBookingCount.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\MonthlyBookingCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T11:50:38.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Login.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Login.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:14:03.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T05:53:42.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "CityPropertyCount.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\CityPropertyCount.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\CityPropertyCount.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\CityPropertyCount.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\CityPropertyCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:45:38.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ChatRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ChatRequest.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\ChatRequest.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ChatRequest.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\ChatRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T12:21:53.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T07:44:06.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\DashboardViewModel.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:47:21.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "EmailOtp.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\EmailOtp.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\EmailOtp.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\EmailOtp.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\EmailOtp.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T09:30:31.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Setting\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "AIRealEstateManagementSystem\\Models\\Setting\\EmailSettings.cs",
+              "ToolTip": "D:\\dotnet_Estate\\AIRealEstateManagementSystem (5)\\AIRealEstateManagementSystem\\AIRealEstateManagementSystem\\Models\\Setting\\EmailSettings.cs",
+              "RelativeToolTip": "AIRealEstateManagementSystem\\Models\\Setting\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T17:12:57.994Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

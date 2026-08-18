@@ -1,0 +1,274 @@
+﻿@model AIRealEstateManagementSystem.Models.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2 class="text-center mb-4">Admin Dashboard</h2>
+
+<div class="row">
+
+    <div class="col-md-4 mb-3">
+        <div class="card bg-primary text-white shadow">
+            <div class="card-body">
+                <h5>Total Properties</h5>
+                <h2>@Model.TotalProperties</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card bg-success text-white shadow">
+            <div class="card-body">
+                <h5>Available</h5>
+                <h2>@Model.AvailableProperties</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card bg-danger text-white shadow">
+            <div class="card-body">
+                <h5>Sold</h5>
+                <h2>@Model.SoldProperties</h2>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-4 mb-3">
+        <div class="card bg-warning shadow">
+            <div class="card-body">
+                <h5>Rented</h5>
+                <h2>@Model.RentedProperties</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card bg-info text-white shadow">
+            <div class="card-body">
+                <h5>Total Users</h5>
+                <h2>@Model.TotalUsers</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card bg-secondary text-white shadow">
+            <div class="card-body">
+                <h5>Total Bookings</h5>
+                <h2>@Model.TotalBookings</h2>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-body">
+                <h5>Total Reviews</h5>
+                <h2>@Model.TotalReviews</h2>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<hr />
+
+<h3 class="text-center mt-5 mb-3">
+    Property Status Chart
+</h3>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-5">
+
+        <canvas id="propertyChart" style="max-height:350px;"></canvas>
+
+        <div id="chartMessage"></div>
+
+    </div>
+
+</div>
+
+<hr class="mt-5" />
+
+<h3 class="text-center mt-5 mb-3">
+    Properties by City
+</h3>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-8">
+
+        <canvas id="cityChart" style="max-height:400px;"></canvas>
+
+        <div id="cityChartMessage"></div>
+
+    </div>
+
+</div>
+
+@section Scripts
+{
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+
+        // ===========================
+        // Pie Chart
+        // ===========================
+
+        const available = @Model.AvailableProperties;
+        const sold = @Model.SoldProperties;
+        const rented = @Model.RentedProperties;
+
+        const total = available + sold + rented;
+
+        if (total > 0) {
+
+        var ctx = document.getElementById('propertyChart').getContext('2d');
+
+        new Chart(ctx, {
+
+        type: 'pie',
+
+        data: {
+
+        labels: ['Available', 'Sold', 'Rented'],
+
+        datasets: [{
+
+        data: [available, sold, rented],
+
+        backgroundColor: [
+        'green',
+        'red',
+        'orange'
+        ]
+
+        }]
+
+        },
+
+        options: {
+
+        responsive: true,
+
+        plugins: {
+
+        legend: {
+
+        position: 'bottom'
+
+        }
+
+        }
+
+        }
+
+        });
+
+        }
+        else {
+
+        document.getElementById("propertyChart").style.display = "none";
+
+        document.getElementById("chartMessage").innerHTML =
+        "<h5 class='text-center text-danger'>No property status data available.</h5>";
+
+        }
+
+
+        // ===========================
+        // Bar Chart
+        // ===========================
+
+        const cityLabels = [
+        @foreach (var item in Model.CityPropertyCounts)
+        {
+            <text>"@item.City",</text>
+        }
+        ];
+
+        const cityCounts = [
+        @foreach (var item in Model.CityPropertyCounts)
+        {
+            <text>@item.Count,</text>
+        }
+        ];
+
+        if (cityLabels.length > 0) {
+
+        var cityCtx = document.getElementById('cityChart').getContext('2d');
+
+        new Chart(cityCtx, {
+
+        type: 'bar',
+
+        data: {
+
+        labels: cityLabels,
+
+        datasets: [{
+
+        label: 'Properties',
+
+        data: cityCounts,
+
+        backgroundColor: 'steelblue',
+
+        borderColor: 'blue',
+
+        borderWidth: 1
+
+        }]
+
+        },
+
+        options: {
+
+        responsive: true,
+
+        scales: {
+
+        y: {
+
+        beginAtZero: true,
+
+        ticks: {
+
+        precision: 0
+
+        }
+
+        }
+
+        }
+
+        }
+
+        });
+
+        }
+        else {
+
+        document.getElementById("cityChart").style.display = "none";
+
+        document.getElementById("cityChartMessage").innerHTML =
+        "<h5 class='text-center text-danger'>No city data available.</h5>";
+
+        }
+
+    </script>
+}
+
+
